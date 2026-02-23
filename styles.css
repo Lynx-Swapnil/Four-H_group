@@ -2215,7 +2215,8 @@ button[type="submit"]:hover::before {
 }
 
 .fade-in {
-    animation: fadeIn 0.6s ease-out;
+    animation: fadeIn 0.6s ease-out forwards;
+    opacity: 1 !important;
 }
 
 /* Pulse Animation for Important Elements */
